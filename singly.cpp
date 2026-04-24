@@ -55,7 +55,7 @@ linkedlist()
         previous->next = nodebaru;
     }
 
-    bool listempty()
+     bool listempty()
     {
         return (START == NULL);
     }
