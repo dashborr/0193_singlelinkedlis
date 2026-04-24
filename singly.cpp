@@ -7,3 +7,5 @@ public:
     int noMhs;
     Node *next;
 }
+
+class linkedlist
