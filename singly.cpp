@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class Node
+class node
 {
 public:
     int noMhs;
-    Node *next;
+    node *next;
 };
 
-class linkedlist
