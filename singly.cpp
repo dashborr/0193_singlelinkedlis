@@ -55,7 +55,7 @@ linkedlist()
         previous->next = nodebaru;
     }
 
-     bool listempty()
+    bool listempty()
     {
         return (START == NULL);
     }
@@ -74,7 +74,7 @@ linkedlist()
         return (*current != NULL);   
     }
 
-   bool delnode(int nim)
+    bool delnode(int nim)
     {
         node *current, *previous;
         if (!search (nim, &previous, &current))
