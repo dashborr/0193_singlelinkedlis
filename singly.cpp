@@ -17,7 +17,7 @@ linkedlist()
         START = NULL;
     }
 
-void addnode()
+ void addnode()
     {
         int nim;
         cout << "\nMasukkan Nomor Mahasiswa";
